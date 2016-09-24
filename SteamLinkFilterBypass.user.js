@@ -5,7 +5,7 @@
 // @description Skips the Steam LinkFilter.
 // @include     https://steamcommunity.com/linkfilter/*
 // @include     http://steamcommunity.com/linkfilter/*
-// @version     0.0.1
+// @version     0.0.2
 // @grant       none
 // @downloadURL https://raw.githubusercontent.com/PotcFdk/SteamLinkFilterBypass/master/SteamLinkFilterBypass.user.js
 // @updateURL   https://raw.githubusercontent.com/PotcFdk/SteamLinkFilterBypass/master/SteamLinkFilterBypass.meta.js
@@ -29,6 +29,6 @@
 
 location.search.substr (1).split ('&').forEach (function (param) {
 	if (param.split ('=')[0] == "url") {
-		location.href = param.split ('=')[1];
+		location.href = param.substr(4);
 	}
 });
