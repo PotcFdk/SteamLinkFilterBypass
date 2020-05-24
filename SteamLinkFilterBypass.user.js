@@ -1,14 +1,14 @@
 // ==UserScript==
 // @author      PotcFdk
 // @name        Steam Link-Filter Bypass
-// @namespace   https://github.com/PotcFdk/SteamLinkFilterBypass
+// @namespace   https://github.com/PotcFdk
 // @description Skips the Steam LinkFilter.
 // @include     https://steamcommunity.com/linkfilter/*
 // @include     http://steamcommunity.com/linkfilter/*
-// @version     0.0.2
+// @version     0.0.3
 // @grant       none
-// @downloadURL https://raw.githubusercontent.com/PotcFdk/SteamLinkFilterBypass/master/SteamLinkFilterBypass.user.js
-// @updateURL   https://raw.githubusercontent.com/PotcFdk/SteamLinkFilterBypass/master/SteamLinkFilterBypass.meta.js
+// @downloadURL https://raw.githubusercontent.com/PotcFdk/userscripts/master/SteamLinkFilterBypass/SteamLinkFilterBypass.user.js
+// @updateURL   https://raw.githubusercontent.com/PotcFdk/userscripts/master/SteamLinkFilterBypass/SteamLinkFilterBypass.meta.js
 // ==/UserScript==
 
 /*
@@ -17,9 +17,9 @@
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
 	You may obtain a copy of the License at
-	
+
 	http://www.apache.org/licenses/LICENSE-2.0
-	
+
 	Unless required by applicable law or agreed to in writing, software
 	distributed under the License is distributed on an "AS IS" BASIS,
 	WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
